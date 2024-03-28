@@ -1,0 +1,116 @@
+body{
+    background-color: #121417;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#main{
+
+    background-color:#252d37;
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#icon{
+
+    width: 25px;
+    height: 25px;
+    display: flex;
+    padding: 5px;
+    background-color: #121417;
+    justify-content: center;
+    border-radius:50px ;
+}
+svg{
+
+    margin: 4px 0px 0px 0px;
+}
+
+#bt1, #bt2, #bt3, #bt4, #bt5{
+
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin: 20px 10px 20px 20px;
+    background-color:#121417;
+    border: none;
+    color: #959eac;
+    cursor: pointer;
+    
+}
+
+ #bt5:hover, #bt4:hover, #bt3:hover, #bt2:hover, #bt1:hover{
+    background-color: #959eac;
+    color: #ffffff;
+     
+}
+
+#bt5:focus, #bt4:focus, #bt3:focus, #bt2:focus, #bt1:focus{
+    background-color: #fb7413;
+    color: #ffffff;
+}
+#sub:hover{
+    background-color: #ffffff;
+    color: #fb7413;
+}
+#sub:focus{
+   background-color:#959eac;
+   color: #ffffff;
+}
+
+#sub{
+
+    height: 35px;
+    width: 95%;
+    cursor: pointer;
+    background-color: #fb7413;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+
+}
+
+h2{
+    color: #ffffff;
+}
+p{
+    color: #959eac;
+}
+
+#next{
+    
+    background-color:#252d37;
+    height: 300px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#mark
+{
+    
+    background-color: #37404a;
+    color: #fb7413;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+
+#thank{
+
+   margin : 30px 0px 0px 90px;
+}
+
+#cont{
+
+    text-align: center;
+    position: relative;
+    left: -9px;
+}
